@@ -1,0 +1,76 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hey",
+                "Hello",
+                "What's up?",
+                "How's it going?",
+                "Good morning"
+            ],
+            "responses": [
+                "Hello Sir!",
+                "What can I do for you today?"
+            ]
+        },
+        {
+            "tag": "create_note",
+            "patterns": [
+                "Please create a new note",
+                "Create a note",
+                "New note",
+                "I want to create a note"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "add_todo",
+            "patterns": [
+                "I want to add a todo",
+                "add a new todo",
+                "add a todo to my list",
+                "new item on my todo list"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "show_todos",
+            "patterns": [
+                "Show my todos",
+                "What are my todos",
+                "What is on my todo list"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag":"search_google",
+            "patterns":[
+                "Google",
+                "Google search",
+                "Search for",
+                "Search",
+                "Find on the internet"
+            ]
+        },
+        {
+            "tag": "exit",
+            "patterns": [
+                "Bye",
+                "Go away",
+                "Stop",
+                "Quit",
+                "I want to quit",
+                "Goodbye",
+                "I want to exit",
+                "I have to go"
+            ]
+        }
+    ]
+}
