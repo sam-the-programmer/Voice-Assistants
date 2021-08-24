@@ -43,15 +43,16 @@
             "patterns": [
                 "Show my todos",
                 "What are my todos",
-                "What is on my todo list"
+                "What is on my todo list",
+                "Tell me what is on my todo list"
             ],
             "responses": [
                 ""
             ]
         },
         {
-            "tag":"search_google",
-            "patterns":[
+            "tag": "search_google",
+            "patterns": [
                 "Google",
                 "Google search",
                 "Search for",
@@ -60,14 +61,36 @@
             ]
         },
         {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thank you very much"
+            ],
+            "responses": [
+                "You're welcome"
+            ]
+        },
+        {
+            "tag": "good_robot",
+            "patterns": [
+                "You're a good robot",
+                "You are very nice",
+                "You are helpful"
+            ],
+            "responses":["I try to be."]
+        },
+        {
             "tag": "exit",
             "patterns": [
                 "Bye",
                 "Go away",
                 "Stop",
+                "End",
+                "Exit",
                 "Quit",
-                "I want to quit",
                 "Goodbye",
+                "I want to quit",
                 "I want to exit",
                 "I have to go"
             ]
