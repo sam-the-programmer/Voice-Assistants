@@ -1,0 +1,86 @@
+{
+    "greeting": {
+        "patterns": [
+            "Hey",
+            "Hello",
+            "Good morning",
+            "Hallo",
+            "Bonjour"
+        ],
+        "responses": [
+            "Hi!",
+            "What can I do for you today?",
+            "Greetings.",
+            "Hello!",
+            "Bonjour"
+        ]
+    },
+    
+    "howYou": {
+        "patterns": [
+            "What's up",
+            "How's it going",
+            "How are you"
+        ],
+        "responses": [
+            "It's a new dawn, it's a new day, it's a new life and I'm feeling good!",
+            "I am very well, thank you.",
+            "It's a good day for me. I get to help you!"
+        ]
+    },
+
+    "thankYou": {
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thank you very much"
+        ],
+        "responses": [
+            "You're welcome"
+        ]
+    },
+
+    "goodComputer": {
+        "patterns": [
+            "You're a good robot",
+            "You are very nice",
+            "You are helpful"
+        ],
+        "responses": [
+            "I try to be.",
+            "I'm flattered",
+            "Thank you so much",
+            "I know"
+        ]
+    },
+
+    "whatName": {
+        "patterns": [
+            "What's your name",
+            "What is your name",
+            "Who are you",
+            "Who is this talking"
+        ],
+        "responses":[
+            "I am the computer, your assistant within your device.",
+            "I am the computer.",
+            "I am here to help, your voice assistant. Call me Computer."
+        ]
+    },
+
+    "exit": {
+        "patterns": [
+            "Bye",
+            "Go away",
+            "Stop",
+            "End",
+            "Exit",
+            "Quit",
+            "Goodbye",
+            "I want to quit",
+            "I want to exit",
+            "I have to go"
+        ],
+        "responses": []
+    }
+}
