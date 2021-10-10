@@ -9,10 +9,11 @@
         ],
         "responses": [
             "Hi!",
-            "What can I do for you today?",
-            "Greetings.",
             "Hello!",
-            "Bonjour"
+            "Bonjour",
+            "Guten Tag",
+            "Greetings.",
+            "What can I do for you today?"
         ]
     },
     
@@ -28,32 +29,7 @@
             "It's a good day for me. I get to help you!"
         ]
     },
-
-    "thankYou": {
-        "patterns": [
-            "Thank you",
-            "Thanks",
-            "Thank you very much"
-        ],
-        "responses": [
-            "You're welcome"
-        ]
-    },
-
-    "goodComputer": {
-        "patterns": [
-            "You're a good robot",
-            "You are very nice",
-            "You are helpful"
-        ],
-        "responses": [
-            "I try to be.",
-            "I'm flattered",
-            "Thank you so much",
-            "I know"
-        ]
-    },
-
+    
     "whatName": {
         "patterns": [
             "What's your name",
@@ -68,9 +44,53 @@
         ]
     },
 
+    "goodComputer": {
+        "patterns": [
+            "You're a good robot",
+            "You are very nice",
+            "You are helpful",
+            "That was good",
+            "I liked that"
+        ],
+        "responses": [
+            "I'm flattered",
+            "Thank you so much",
+            "I know"
+        ]
+    },
+
+    "badComputer": {
+        "patterns": [
+            "You annoy me",
+            "Why are you still here",
+            "I hate you",
+            "I don't like you"
+        ],
+        "responses": [
+            "I am sorry. If you'd like me to shut down, say Computer Exit.",
+            "Oh. Ok",
+            "I'll try to be better in the future."
+        ]
+    },
+
+    "thankYou": {
+        "patterns": [
+            "Thank you",
+            "Thanks",
+            "Thank you very much"
+        ],
+        "responses": [
+            "You're welcome"
+        ]
+    },
+
+    
+
     "exit": {
         "patterns": [
             "Bye",
+            "Be quiet",
+            "Shut down",
             "Go away",
             "Stop",
             "End",
@@ -82,5 +102,38 @@
             "I have to go"
         ],
         "responses": []
+    },
+
+
+
+    "meaningLife": {
+        "patterns": [
+            "What is the meaning of life",
+            "What's the meaning of life",
+            "Why am I here",
+            "Why are we here",
+            "Why does life exist"
+        ],
+        "responses": [
+            "42",
+            "Some say it is 42, other say it is to be happy. Really, it is whatever you want it to be.",
+            "You choose!",
+            "I am not sure. I am a robot. I have not life, I just have electricity in circuits."
+        ]
+    },
+
+    "singSong": {
+        "patterns": [
+            "Sing me a song",
+            "Sing something",
+            "Can you sing",
+            "Please could you sing",
+            "Could you sing for me"
+        ],
+        "responses": [
+            "I am a robot, but I can try. Birds flying high, You know how I feel, Sun in the sky, You know how I feel, Breeze driftin' on by, You know how I feel. It's a new dawn, It's a new day, It's a new life, For me... How was that?",
+            "Sorry, my vocal chords are not warmed up right now. Mainly because I have no vocal chords!",
+            "It would not sound very good. I can speak only in this monotonous voice."
+        ]
     }
 }
