@@ -15,13 +15,13 @@ Within this repository, we have many different assistants. Here is a description
 
 ------------------
 
-## [Basic Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/Basic%20Assistant)
+## [Basic Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/basic-assistant)
 
 <br/>
 
 After following a NeuralNine YouTube tutorial, I created this assistant that follows basic commands, but is quite slow.
 
-## [Helpful Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/Computer%20Assistant)
+## [Helpful Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/helpful-assistant)
 
 <br/>
 
