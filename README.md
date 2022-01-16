@@ -11,7 +11,7 @@ Within this repository, we have many different assistants. Here is a description
 <br/>
 <br/>
 
-#### Note: Only Computer Assistant works presently.
+#### **Note: Only Computer Assistant works presently.**
 
 ------------------
 
@@ -21,18 +21,10 @@ Within this repository, we have many different assistants. Here is a description
 
 After following a NeuralNine YouTube tutorial, I created this assistant that follows basic commands, but is quite slow.
 
-## [Computer Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/Computer%20Assistant)
+## [Helpful Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/Computer%20Assistant)
 
 <br/>
 
-Inspired by the [Star Trek](https://startrek.com) computer consoles such as [here](https://memory-alpha.fandom.com/wiki/Computer) which are referenced to as *"Computer"*, I created a voice assistant in such a style.
-
-<br/>
-
-## [Jarvis Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/Jarvis%20Assistant)
-
-<br/>
-
-Inspired by the Marvel computer Jarvis, this is a similar assistant to the others.
+A helpful assistant.
 
 <br/>
