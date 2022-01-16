@@ -2,7 +2,6 @@ import json
 import random
 from difflib import SequenceMatcher
 
-import pocketsphinx as ps
 import text_to_speech as tts
 from speech_recognition import Microphone, Recognizer, UnknownValueError
 
@@ -71,11 +70,10 @@ class ComputerAssistant(object):
         print(pattern)
         self._probabilities = {}
         for key in self._intents:
-            self._probabilities[key] = []
-
-            for item in self._intents[key]["patterns"]:
-                self._probabilities[key].append(
-                    self._check_compatability(item, pattern))
+            self._probabilities[key] = [
+                self._check_compatability(item, pattern)
+                for item in self._intents[key]["patterns"]
+            ]
 
     def _get_max_prob(self) -> str:
         """Get the maximum probability and its tag."""
@@ -119,6 +117,7 @@ class ComputerAssistant(object):
         print("Ready to help!")
         while True:
             self._recognize()
+            print(self.input)
             if "computer" in list(self.input.split(" ")):
                 self._get_probs(self.input)
                 self._get_max_prob()
