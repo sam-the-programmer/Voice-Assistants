@@ -11,20 +11,21 @@ Within this repository, we have many different assistants. Here is a description
 <br/>
 <br/>
 
-#### **Note: Only Computer Assistant works presently.**
+#### **Note: Only Computer and Helpful Assistant works presently.**
 
 ------------------
 
-## [Basic Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/basic-assistant)
+## [Computer Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/computer-assistant)
+
+Inspired by the Star Trek computer, this is my assistant. Refer to as "computer".
 
 <br/>
+
+## [Basic Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/basic-assistant)
 
 After following a NeuralNine YouTube tutorial, I created this assistant that follows basic commands, but is quite slow.
 
 ## [Helpful Assistant](https://github.com/Password-Classified/Voice-Assistants/tree/master/helpful-assistant)
 
-<br/>
-
 A helpful assistant.
 
-<br/>
