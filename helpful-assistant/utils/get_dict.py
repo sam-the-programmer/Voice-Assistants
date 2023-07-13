@@ -8,9 +8,10 @@ G2P = g2p.G2p()
 words = []
 for tag in intents.values():
     for pattern in tag["patterns"]:
-        for word in pattern.split(" "):
-            words.append(word.lower() + " " + " ".join(G2P(word.lower())))
-
+        words.extend(
+            f"{word.lower()} " + " ".join(G2P(word.lower()))
+            for word in pattern.split(" ")
+        )
 words = sorted(list(set(words)))
 
 
