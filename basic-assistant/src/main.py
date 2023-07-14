@@ -79,7 +79,7 @@ def add_todo():
                 todo_list.append(item)
                 done = True
 
-                say(f'Successfully added item to to-do list.')
+                say('Successfully added item to to-do list.')
         except UnknownValueError:
             recognizer = Recognizer()
             say('I did not understand that.')
